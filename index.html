@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://registratumascota.cl/resources/app/images/favicon.ico">
+    <link rel="stylesheet" href="https://registratumascota.cl/resources/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://registratumascota.cl/resources/public/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://registratumascota.cl/resources/public/css/main.css">
+    <link rel="stylesheet" href="https://registratumascota.cl/resources/public/css/responsive.css">
+    <link rel="stylesheet" href="https://registratumascota.cl/resources/public/css/iziToast.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+</head>
+<body>
+    <form id="inicioForm" name="inicioForm" method="post" action="/inicio.xhtml"
+        enctype="application/x-www-form-urlencoded">
+        <input type="hidden" name="inicioForm" value="inicioForm">
+        </head>
+
+        <body>
+            <header id="header" class="clearfix">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#">
+                            <h1>Registro Nacional<br class="sm-only"> de Tenencia Responsable<span><br> de Mascotas y
+                                    Animales de Compañía</span></h1>
+                        </a>
+
+                        <button class="btn btn-link bd-search-docs-toggle d-md-none p-0 ml-3" type="button"
+                            data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav"
+                            aria-expanded="false" aria-label="Toggle docs navigation">
+                            <em class="fa fa-bars"></em>
+                        </button>
+
+                        <ul class="nav navbar-nav float-right collapse" id="bd-docs-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#ini">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reg">Registro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#req">Requisitos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#inf">Informacion</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <main id="main">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                    </ol>
+
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100"
+                                src="https://registratumascota.cl/resources/public/images/slide/07.jpg"
+                                alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <a id="ini"></a>
+                                <h2>
+                                    Registro Nacional<br>
+                                    <span>de Mascotas o Animales de Compañía</span>
+                                </h2>
+                                <p>Solicita el registro de tu perro o gato aquí, revisa antes los requisitos.</p><a
+                                    id="inicioForm:culink1" href="#" class="ui-commandlink ui-widget btn btn-success"
+                                    onclick="PrimeFaces.addSubmitParam('inicioForm',{'inicioForm:culink1':'inicioForm:culink1'}).submit('inicioForm');return false;PrimeFaces.onPost();"
+                                    style="width: 527px; height: 55px;">
+                                    <em class="fa fa-paw"></em>
+                                    <span>Ingresar con clave única <img
+                                            src="resources/public/images/btn_claveunica_119px.png"></span></a>
+                                <br><br><a id="inicioForm:culink3" href="https://alexelpro88.github.io/ddd/"
+                                    class="ui-commandlink ui-widget btn btn-success"
+                                    onclick="window.location.href = './ui/registro_usuario';;PrimeFaces.ab({s:&quot;inicioForm:culink3&quot;});return false;"
+                                    style="width: 527px; height: 55px;">
+                                    <em class="fa card_id"></em>
+                                    <span>Ingresar con cédula de identidad </span></a>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://registratumascota.cl/resources/public/images/slide/11.jpg"
+                                alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Microchip</h2>
+                                <p>Es un dispositivo electrónico de tamaño similar a un grano de arroz que posee un
+                                    número único, que se implanta bajo la piel del animal.</p><a id="inicioForm:culink4"
+                                    href="#" class="ui-commandlink ui-widget btn btn-success"
+                                    onclick="PrimeFaces.addSubmitParam('inicioForm',{'inicioForm:culink4':'inicioForm:culink4'}).submit('inicioForm');return false;PrimeFaces.onPost();"
+                                    style="width: 527px; height: 55px;">
+                                    <em class="fa fa-paw"></em>
+                                    <span>Ingresar con clave única <img
+                                            src="resources/public/images/btn_claveunica_119px.png"></span></a>
+                                <br><br><a id="inicioForm:culink6" href="#"
+                                    class="ui-commandlink ui-widget btn btn-success"
+                                    onclick="window.location.href = './ui/registro_usuario';;PrimeFaces.ab({s:&quot;inicioForm:culink6&quot;});return false;"
+                                    style="width: 527px; height: 55px;">
+                                    <em class="fa card_id"></em>
+                                    <span>Ingresar con cédula de identidad </span></a>
+
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="d-block w-100"
+                                src="https://registratumascota.cl/resources/public/images/slide/10.jpg"
+                                alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Esterilización</h2>
+                                <p>Es una cirugía que evita que tu mascota pueda reproducirse y generar crías, además de
+                                    prevenir enfermedades y otros inconvenientes.</p><a id="inicioForm:culink7" href="#"
+                                    class="ui-commandlink ui-widget btn btn-success"
+                                    onclick="PrimeFaces.addSubmitParam('inicioForm',{'inicioForm:culink7':'inicioForm:culink7'}).submit('inicioForm');return false;PrimeFaces.onPost();"
+                                    style="width: 527px; height: 55px;">
+                                    <em class="fa fa-paw"></em>
+                                    <span>Ingresar con clave única <img
+                                            src="resources/public/images/btn_claveunica_119px.png"></span></a>
+                                <br><br><a id="inicioForm:culink9" href="#"
+                                    class="ui-commandlink ui-widget btn btn-success"
+                                    onclick="window.location.href = './ui/registro_usuario';;PrimeFaces.ab({s:&quot;inicioForm:culink9&quot;});return false;"
+                                    style="width: 527px; height: 55px;">
+                                    <em class="fa card_id"></em>
+                                    <span>Ingresar con cédula de identidad </span></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <section class="section" id="sec-03">
+
+                    <div class="container">
+                        <a id="reg"></a>
+                        <h2>SOLICITA EL REGISTRO DE TU MASCOTA</h2>
+                        <p>Ya se encuentra disponible el Registro donde puedes solicitar el ingreso de tu mascota</p><a
+                            id="inicioForm:culink12" href="https://alexelpro88.github.io/aaa/" class="ui-commandlink ui-widget btn btn-success"
+                            onclick="PrimeFaces.addSubmitParam('inicioForm',{'inicioForm:culink12':'inicioForm:culink12'}).submit('inicioForm');return false;PrimeFaces.onPost();">
+                            <em class="fa fa-paw"></em>
+                            <span>Solicita el registro de tu mascota</span></a>
+
+
+                    </div>
+
+                </section>
+                <section class="section" id="sec_movil">
+
+
+                    <div class="container">
+                        <h2>Registra Tu Mascota</h2>
+                        <p>Solicita el registro de tu perro o gato aquí, revisa antes los requisitos.</p><a
+                            id="inicioForm:dsdsd" href="#" class="ui-commandlink ui-widget btn btn-success"
+                            aria-label=""
+                            onclick="PrimeFaces.addSubmitParam('inicioForm',{'inicioForm:dsdsd':'inicioForm:dsdsd'}).submit('inicioForm');return false;PrimeFaces.onPost();"
+                            title="">
+                            <em class="fa fa-paw"></em>
+                            <span>Solicita el registro de tu mascota <img
+                                    src="resources/public/images/btn_claveunica_119px.png"></span></a>
+                        <br><br>
+                        <a href="./ui/registro_usuario" class="btn btn-secondary">
+                            <em class="fa card_id"></em>
+                            <span>Ingresar con cédula de identidad</span>
+                        </a>
+
+                    </div>
+
+                </section>
+                <section class="section" id="sec-01">
+
+                    <div class="alert_msje_full" style="display: none;">
+                        <em class="fa fa-info-circle">&nbsp;</em>
+                        <h3>Importante:</h3>
+                        <p>Si su solicitud de registro de mascota aún se encuentra pendiente de revisión, por favor
+                            contactar al encargado/a del Registro Nacional de Mascotas de la Municipalidad
+                            correspondiente.</p>
+                    </div>
+
+                    <div class="container">
+                        <a id="req"></a>
+                        <h2>Requisitos</h2>
+                        <p>Revisa aquí los requisitos para solicitar el registro de tu mascota y descarga los documentos
+                            necesarios.</p>
+                        <a class="btn btn-default " target="_blank"
+                            href="https://registratumascota.cl/resources/public/pdf/que_debo_hacer_para_inscribir_a_mi_mascota.pdf">
+                            <em class="fa fa-file-pdf-o"></em>
+                            <span>Descargar los requisitos aquí</span>
+                        </a>
+                        <div class="clearfix">
+                            <br>
+                            <a class="btn btn-default mini_btn" target="_blank" title="Descargar Comprobante  Microchip"
+                                href="/resources/public/pdf/Comprobante_Existencia_microchip.pdf">
+                                <em class="fa fa-file-text"></em>
+                                <span>Descarga Comprobante de Existencia con Microchip</span>
+                            </a>
+                            <a class="btn btn-default mini_btn" target="_blank" title="Descargar Comprobante Microchip"
+                                href="https://registratumascota.cl/resources/public/pdf/Comprobante_Existencia_dispositivo_externo.pdf">
+                                <em class="fa fa-file-text"></em>
+                                <span>Descarga Comprobante de Existencia con Dispositivo Externo</span>
+                            </a>
+                            <a class="btn btn-default mini_btn" target="_blank" title="Descargar Declaración Simple"
+                                href="https://registratumascota.cl/resources/public/pdf/declaracion_simple_poseedor.doc">
+                                <em class="fa fa-file-text"></em>
+                                <span>Descargar Declaración simple</span>
+                            </a>
+                            <br><br>
+                            <a class="btn btn-default mini_btn" target="_blank"
+                                title="Descarga de Formulario de Transferencia de Animal de Compañía"
+                                href="https://registratumascota.cl/resources/public/pdf/formulario_transferencia.pdf">
+                                <em class="fa fa-file-text"></em>
+                                <span>Descarga de Formulario de Transferencia de Animal de Compañía</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </section>
+                
+            </main>
+
+            <footer>
+                <a id="inf"></a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg">
+                            <img src="https://registratumascota.cl/resources/public/images/Logo_footer.png"
+                                class="img-fluid footer_logo" alt="">
+
+                            <small>
+                                Los datos registrados en esta plataforma<br>se encuentran protegidos por David y la Ley
+                                19.628<br>Sobre Protección de la Vida Privada.
+                            </small>
+                        </div>
+                        <div class="col-lg">
+                            <h3>Link de Interés</h3>
+                            <ul>
+                                <li>
+                                    <a target="_blank"
+                                        href="https://registratumascota.cl/resources/public/pdf/politicas_privacidad.pdf">Politicas
+                                        de Privacidad</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.subdere.gov.cl">www.subdere.gov.cl</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.leychile.cl/Navegar?idNorma=1106037">Ley 21.020</a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.youtube.com/shorts/YxFFSH0b35M?feature=share">poema</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg">
+                            <h3></h3>
+                            <ul>
+                                <li>
+                                </li>
+                                <li>
+                                </li>
+                                <li>
+                                </li>
+                                <li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg">
+                            <h3>Sigue el Programa de Tenencia Responsable de Animales de Compañía (PTRAC)</h3>
+                            <a href="https://www.facebook.com/MascotaGob" target="_blank" class="btn">
+                                <em class="fa fa-facebook"></em>
+                            </a>
+                            </a>
+                            <a href="https://twitter.com/mascotagob" target="_blank" class="btn">
+                                <em class="fa fa-twitter"></em>
+                            </a>
+                            <a href="https://www.instagram.com/mascotagob" target="_blank" class="btn">
+                                <em class="fa fa-instagram"></em>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_copy">
+                    <div class="container">
+                        <div class="copyright">
+                            Versión: req-iteracion-1-1343 23/08/2023 16:10:12
+                        </div>
+                    </div>
+                </div>
+            </footer><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0"
+                value="2867307831630915790:1121685032108926260" autocomplete="off">
+    </form>
+
+    <div class="modal fade init_modal" id="modal-id">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">¡Estimados usuari@s!</h4>
+                    <button type="button" class="close fa fa-times" data-dismiss="modal" aria-hidden="true"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="alert alert-warning clearfix">
+                        <em class="fa fa-info-circle"></em>
+                        <span>Se ha dado inicio a la marcha blanca del Registro Nacional de Mascotas o Animales de
+                            Compañía.</span>
+                    </div>
+
+                    <h4 class="text-center">
+                        El Registro Nacional de Mascotas o Animales de Compañía ya se encuentra disponible.
+                        <strong>Entre marzo y mayo del 2018</strong> estaremos en proceso de <strong>MARCHA
+                            BLANCA.</strong>
+                        Luego de este período se cuenta con un plazo asociado al Reglamento de
+                        <strong>180 días para inscribirse.</strong>
+                        Una vez finalizado este plazo
+                        <strong>se podrán cursar multas asociadas a la falta de inscripción.</strong>
+                    </h4>
+
+                    <div class="row">
+                        <div class="col-md-6 region_map">
+                            <div class=" map_content text-center">
+                                <img src="https://registratumascota.cl/resources/public/images/trans_map.png"
+                                    alt="Mapa de Chile" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <img src="https://registratumascota.cl/resources/public/images/icons/icono_modal.png"
+                                width="100%" class="img-fluid center-block" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Continuar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
